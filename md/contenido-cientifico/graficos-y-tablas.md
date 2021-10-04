@@ -1,0 +1,5 @@
+![Gráfica sobre la información nutricional del noni](https://www.herbazest.com/imgs/e/3/7/952930/noni-informacion-nutricional-821574-section.png)
+
+## Análisis e interpretación
+
+Así como podrán ver en las gráficas, el noni tiene bastante vitamina C, un 59% en valor diario siendo específico, que es vital para el proceso de curación de nuestro cuerpo. Las otras vitaminas que el noni contiene, las tiene en pocas porciones, estando en 3% las vitaminas B9, B5, B2 y B6, finalizando con un 2% de vitamina B1, B3 y E. Aparte de esto se ve que una porción de 100g solo serían unas 27 kcal, no nos olvidemos que en su mayoría el Noni es agua, lo que te ayudaría en una dieta, los minerales que el Noni contiene están bastante balanceados con un 3% de Potasio y Magnesio y un 2% de Hierro, fósforo y Calcio. Eh! No nos olvidemos de los valores nutricionales básicos, que son 94.48g de agua, 0.5g de proteínas, 6 de carbohidratos, 0.1 de grasas, 0.6g de fibra y 1.5g de azúcares. Todo esto según estudios realizados hasta la fecha.

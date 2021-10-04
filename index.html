@@ -2,23 +2,137 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Noni</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Sora:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/slider.css" />
   </head>
+
   <body>
-    <h1>xd</h1>
-    <p>
-      Página web en proceso de creación. Para más información, vea
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">este video</a> y
-      siga
-      <a href="https://www.instagram.com/guanabanoni_/"
-        >nuestra página de Instagram</a
-      >. También puede encontrar el código fuente del proyecto en
-      <a href="https://github.com/guanabanoni">nuestro GitHub</a>.
-    </p>
-    <a href="https://www.instagram.com/guanabanoni_/"
-      ><button>Follow us!</button></a
-    >
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="descripcion-botanica.html">Descripción</a></li>
+              <li><a href="plagas.html">Plagas</a></li>
+              <li><a href="usos-y-productos.html">Usos</a></li>
+              <li><a href="habitat.html">Hábitat</a></li>
+              <li>
+                <a href="agricultura-organica-vs-convencional.html"
+                  >Agricultura</a
+                >
+              </li>
+              <li><a href="graficos-y-tablas.html">Gráficos</a></li>
+              <li><a href="hazlo-tu-mismo.html">Video</a></li>
+              <li>
+                <a href="citas-y-referencias-bibliograficas.html"
+                  >Referencias</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="hero">
+      <div class="container spacing">
+        <h1 class="primary-title">conoce todo sobre el noni</h1>
+        <p>
+          Si quieres información sobre esta fascinante planta frutal, estás en
+          el lugar correcto. Con Guanabanoni aprenderás todo lo debes saber.
+          Síguenos en Instagram para más contenido y apoyar nuestro proyecto.
+        </p>
+        <a
+          href="https://www.instagram.com/guanabanoni_"
+          class="btn"
+          target="_blank"
+          >Síguenos en @guanabanoni_</a
+        >
+        <a href="#slider" class="btn">Mira nuestro contenido</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap" id="slider">
+        <div id="arrow-left" class="arrow"></div>
+        <div id="slider">
+          <div class="slide slide1">
+            <div class="slide-content">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                ><span>El noni</span></a
+              >
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="slide-content">
+              <a href="descripcion-botanica.html"
+                ><span>Descripción botánica</span></a
+              >
+            </div>
+          </div>
+          <div class="slide slide3">
+            <div class="slide-content">
+              <a href="plagas.html"><span>Plagas</span></a>
+            </div>
+          </div>
+          <div class="slide slide4">
+            <div class="slide-content">
+              <a href="usos-y-productos.html"><span>Usos y productos</span></a>
+            </div>
+          </div>
+          <div class="slide slide5">
+            <div class="slide-content">
+              <a href="habitat.html"><span>Hábitat</span></a>
+            </div>
+          </div>
+          <div class="slide slide6">
+            <div class="slide-content">
+              <a href="agricultura-organica-vs-convencional.html"
+                ><span>Agricultura orgánica vs convencional</span></a
+              >
+            </div>
+          </div>
+          <div class="slide slide7">
+            <div class="slide-content">
+              <a href="graficos-y-tablas.html"
+                ><span>Gráficos y tablas</span></a
+              >
+            </div>
+          </div>
+          <div class="slide slide8">
+            <div class="slide-content">
+              <a href="hazlo-tu-mismo.html"><span>Hazlo tú mismo</span></a>
+            </div>
+          </div>
+          <div class="slide slide9">
+            <div class="slide-content">
+              <a href="citas-y-referencias-bibliograficas.html"
+                ><span>Citas y referencias bibliográficas</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="arrow-right" class="arrow"></div>
+      </div>
+    </main>
+    <script src="js/slider.js"></script>
   </body>
 </html>
