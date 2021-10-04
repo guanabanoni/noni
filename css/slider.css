@@ -20,8 +20,9 @@ body {
   overflow-y: scroll;
 }
 
+div,
 #slider {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .wrap {
