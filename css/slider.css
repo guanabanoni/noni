@@ -16,8 +16,12 @@ a {
   max-width: 75vw;
 }
 
-html {
-  overflow-y: auto;
+body {
+  overflow-y: scroll;
+}
+
+#slider {
+  overflow: hidden;
 }
 
 .wrap {
