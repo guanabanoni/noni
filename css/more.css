@@ -1,0 +1,32 @@
+footer {
+  background: #00000f;
+  color: aliceblue;
+  padding: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.cool-container {
+  display: flex;
+}
+
+@media (max-width: 1216px) {
+  footer {
+    flex-direction: column;
+  }
+  .cool-container {
+    flex-direction: column;
+  }
+  footer ul {
+    flex-direction: column;
+  }
+}
